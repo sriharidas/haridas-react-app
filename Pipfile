@@ -4,12 +4,15 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-flask = "*"
-flask-sqlalchemy = "*"
+flask = "==1.1.2"
+flask-sqlalchemy = "==1.0"
 flask-marshmallow = "*"
 marshmallow-sqlalchemy = "*"
+chatterBot = "==1.0.8"
+spacy = "==2.3.5"
+gunicorn = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.9"
+python_version = "3.7"

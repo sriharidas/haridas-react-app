@@ -2,3 +2,4 @@ ChatterBot==1.0.8
 spacy==2.3.5
 Flask_SQLAlchemy==1.0
 Flask==1.1.2
+gunicorn
